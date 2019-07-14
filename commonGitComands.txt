@@ -1,0 +1,77 @@
+useful links:
+https://help.github.com/en/articles/adding-a-remote
+
+
+How compare changes 
+git diff - show changes of files 
+
+How to return file conditions if it not be staged/commited
+git chechout (route and name to file) 
+
+How to return accidently deleted file if changes were commited
+git chechout (route and name to file)
+
+How to get file in condition one of the commit
+git checkot (commithash) (route and name to file) 
+
+How to show last commit 
+git log -1 show last commit
+
+How to remove staged file 
+Some time you need split commits to several files 05:40
+git reset HEAD  route/namefile   refuse change indexation 
+
+How to show what in the commit: 
+git show (commit hash) - show what in the commit 
+ 
+How to correct last commit message. Wrong commit message will disapire ? commit hash will change
+git commit --amend -m "correct commit comment" 
+
+How to discharge file from commit and folder (if you accidently commit wrong file with nedded files)
+git rm (route and name to file) - discharge file form commit and folder 
+after delited files from commit you should : git commit --amend --no-edit
+ 
+How to discharge file from commit only (if you accidently commit wrong file with nedded files)
+git rm --cached (route and name to file) - discharge file form commit only   
+
+
+How to remove branch:
+git branch -d <branchName>
+
+if branch not marged  
+git branch -D <branchName>
+
+----------------------Remote-----------------------------------------------------------------
+
+How to add remote repository
+git remote add origin URL    add a new remote repository 
+git remote -v    verify new remote 
+
+How to remove remote repository 
+
+Instead of removing and re-adding, you can do this:
+git remote set-url origin git://new.url.here
+git remote remove origin
+
+how to show remote branches
+git branch -r 
+
+how to show commits of the remote branche
+git log --oneline origin/master
+
+-------------------------------------------------------------------------------------
+
+How print branches in console
+git log --online --graph -6
+
+-------------- Git branching --------------------------------------------------------
+
+How to show current branch
+git bransh
+
+How to show current and local branches:
+git branch -a
+
+how to show commits of the branche
+git log --oneline origin/master
+  
