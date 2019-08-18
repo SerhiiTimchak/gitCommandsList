@@ -58,7 +58,7 @@ git branch -r
 
 how to show commits of the remote branche
 git log --oneline origin/master
-
+ 
 -------------------------------------------------------------------------------------
 
 How print branches in console
@@ -74,4 +74,6 @@ git branch -a
 
 how to show commits of the branche
 git log --oneline origin/master
-  
+
+How to create a remote branch on the fly from a local repository
+git push --set-upstream origin <local branch>
