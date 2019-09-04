@@ -34,6 +34,8 @@ after delited files from commit you should : git commit --amend --no-edit
 How to discharge file from commit only (if you accidently commit wrong file with nedded files)
 git rm --cached (route and name to file) - discharge file form commit only   
 
+How to remove last commit:
+git reset --hard HEAD^
 
 How to remove branch:
 git branch -d <branchName>
@@ -58,6 +60,9 @@ git branch -r
 
 how to show commits of the remote branche
 git log --oneline origin/master
+
+how to delete last commit 
+git push origin +<branchName>
  
 -------------------------------------------------------------------------------------
 
