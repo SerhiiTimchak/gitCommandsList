@@ -43,6 +43,10 @@ git branch -d <branchName>
 if branch not marged  
 git branch -D <branchName>
 
+how to stage all files except one
+git add -A
+git reset -- main/dontcheckmein.txt
+
 ----------------------Remote-----------------------------------------------------------------
 
 How to add remote repository
