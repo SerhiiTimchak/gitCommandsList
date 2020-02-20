@@ -44,8 +44,7 @@ if branch not marged
 git branch -D <branchName>
 
 how to stage all files except one
-git add -A
-git reset -- main/dontcheckmein.txt
+git restore --staged <filename>
 
 ----------------------Remote-----------------------------------------------------------------
 
