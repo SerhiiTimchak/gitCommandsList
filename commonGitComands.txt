@@ -43,8 +43,8 @@ git branch -d <branchName>
 if branch not marged  
 git branch -D <branchName>
 
-how to stage all files except one
-git restore --staged <filename>
+how to remuve one file from stage
+git rm --cached <filename>
 
 ----------------------Remote-----------------------------------------------------------------
 
