@@ -89,3 +89,8 @@ git log --oneline origin/master
 
 How to create a remote branch on the fly from a local repository
 git push --set-upstream origin <local branch>
+
+How to edit branch name 
+git branch -m <oldname> <newname>
+If you want to rename the current branch, you can do:
+git branch -m <newname>
